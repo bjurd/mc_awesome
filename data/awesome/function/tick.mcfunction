@@ -3,5 +3,6 @@ execute as @a if score @s AM_Deaths > @s AM_CountedDeaths run function awesome:f
 function awesome:tick/creeperboom
 function awesome:tick/skelegang
 function awesome:tick/kiddies
+function awesome:tick/enderrage
 
 function awesome:tick/armorbuff

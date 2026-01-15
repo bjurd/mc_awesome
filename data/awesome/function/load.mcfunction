@@ -67,6 +67,7 @@ tellraw @a {"text":"Shortening creeper fuses..."}
 tellraw @a {"text":"Causing skeleton gang warfare..."}
 tellraw @a {"text":"Firing shrink ray at Zombies..."}
 tellraw @a {"text":"Taxing the dead..."}
+tellraw @a {"text":"Looking at endermen..."}
 
 
 
