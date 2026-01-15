@@ -13,3 +13,5 @@ scoreboard objectives add AM_Deaths deathCount
 
 tellraw @a {"text":"Displaying variables in non-obstructive locations..."}
 scoreboard objectives setdisplay list AM_Deaths
+
+tellraw @a {"text":"Causing skeleton gang warfare..."}
