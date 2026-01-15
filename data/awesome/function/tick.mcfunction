@@ -4,6 +4,7 @@ function awesome:tick/creeperboom
 function awesome:tick/skelegang
 function awesome:tick/kiddies
 function awesome:tick/enderrage
+function awesome:tick/piggerrage
 function awesome:tick/no_goggles
 function awesome:tick/hotfeet
 
