@@ -13,10 +13,12 @@ scoreboard objectives add AM_Counter dummy
 scoreboard objectives add AM_Var dummy
 scoreboard objectives add AM_RNG dummy
 scoreboard objectives add AM_Deaths deathCount
+scoreboard objectives add AM_CountedDeaths dummy
 scoreboard objectives add AM_Health health
 
 scoreboard objectives setdisplay list AM_Deaths
 scoreboard objectives setdisplay below_name AM_Health
+execute as @a run scoreboard players operation @s AM_CountedDeaths = @s AM_Deaths
 
 
 
@@ -55,13 +57,16 @@ gamerule drowning_damage true
 gamerule ender_pearls_vanish_on_death false
 
 gamerule limited_crafting false
+gamerule keep_inventory true
 
 gamerule locator_bar false
 
 
 
+tellraw @a {"text":"Shortening creeper fuses..."}
 tellraw @a {"text":"Causing skeleton gang warfare..."}
 tellraw @a {"text":"Firing shrink ray at Zombies..."}
+tellraw @a {"text":"Taxing the dead..."}
 
 
 
