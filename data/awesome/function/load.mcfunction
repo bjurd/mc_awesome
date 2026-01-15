@@ -67,6 +67,7 @@ tellraw @a {"text":"Firing shrink ray at Zombies..."}
 tellraw @a {"text":"Taxing the dead..."}
 tellraw @a {"text":"Looking at endermen..."}
 tellraw @a {"text":"Requiring swimming goggles..."}
+tellraw @a {"text":"Increasing foot temperatures..."}
 
 
 
