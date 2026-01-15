@@ -1,0 +1,7 @@
+{
+	"pack": {
+		"description": "Awesome Mode",
+		"pack_format": 71,
+		"supported_formats": [71, 81]
+	}
+}
