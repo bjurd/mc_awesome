@@ -1,1 +1,1 @@
-say ticktock
+function awesome:funny/creeperboom
