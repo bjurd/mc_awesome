@@ -1,1 +1,1 @@
-function awesome:funny/creeperboom
+function awesome:tick/creeperboom
