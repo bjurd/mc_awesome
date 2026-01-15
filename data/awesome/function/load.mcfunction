@@ -4,12 +4,10 @@ tellraw @a {"text":"Awesome Mode startup!"}
 
 tellraw @a {"text":"Creating very real variables..."}
 # Just kidding deleting the old ones first
-scoreboard objectives remove AM_Counter
 scoreboard objectives remove AM_Var
 scoreboard objectives remove AM_RNG
 scoreboard objectives remove AM_Health
 
-scoreboard objectives add AM_Counter dummy
 scoreboard objectives add AM_Var dummy
 scoreboard objectives add AM_RNG dummy
 scoreboard objectives add AM_Deaths deathCount
