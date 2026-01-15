@@ -15,3 +15,4 @@ tellraw @a {"text":"Displaying variables in non-obstructive locations..."}
 scoreboard objectives setdisplay list AM_Deaths
 
 tellraw @a {"text":"Causing skeleton gang warfare..."}
+tellraw @a {"text":"Firing shrink ray at Zombies..."}
