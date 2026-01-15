@@ -7,6 +7,7 @@ tellraw @a {"text":"Creating very real variables..."}
 scoreboard objectives remove AM_Counter
 scoreboard objectives remove AM_Var
 scoreboard objectives remove AM_RNG
+scoreboard objectives remove AM_Health
 
 scoreboard objectives add AM_Counter dummy
 scoreboard objectives add AM_Var dummy
@@ -65,3 +66,6 @@ tellraw @a {"text":"Firing shrink ray at Zombies..."}
 
 
 tellraw @a {"text":"Awesome Mode locked and loaded!"}
+
+# Gets attention but more importantly will update the health display
+execute as @a at @s run damage @s 0.001 minecraft:out_of_world
