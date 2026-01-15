@@ -12,8 +12,10 @@ scoreboard objectives add AM_Counter dummy
 scoreboard objectives add AM_Var dummy
 scoreboard objectives add AM_RNG dummy
 scoreboard objectives add AM_Deaths deathCount
+scoreboard objectives add AM_Health health
 
 scoreboard objectives setdisplay list AM_Deaths
+scoreboard objectives setdisplay below_name AM_Health
 
 
 
