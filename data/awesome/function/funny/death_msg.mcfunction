@@ -1,5 +1,5 @@
 scoreboard players set #min AM_Var 0
-scoreboard players set #max AM_Var 15
+scoreboard players set #max AM_Var 25
 function awesome:rng
 
 execute if score #out AM_Var matches 0 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" just got rekt"}]}
@@ -14,7 +14,17 @@ execute if score #out AM_Var matches 8 run tellraw @a {"text":"","extra":[{"sele
 execute if score #out AM_Var matches 9 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" left their skill at home"}]}
 execute if score #out AM_Var matches 10 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" equipped the wrong gear"}]}
 execute if score #out AM_Var matches 11 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" brought a knife to a gun fight"}]}
-execute if score #out AM_Var matches 12 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" got tapped nn, gg ez"}]}
+execute if score #out AM_Var matches 12 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" got tapped, gg ez"}]}
 execute if score #out AM_Var matches 13 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" should uninstall the game"}]}
 execute if score #out AM_Var matches 14 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" must be a bot"}]}
 execute if score #out AM_Var matches 15 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" slipped on a banana peel"}]}
+execute if score #out AM_Var matches 16 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" learned nothing"}]}
+execute if score #out AM_Var matches 17 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" tried their best, but it wasn't enough"}]}
+execute if score #out AM_Var matches 18 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" died in a very avoidable way"}]}
+execute if score #out AM_Var matches 19 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" pressed all the wrong buttons"}]}
+execute if score #out AM_Var matches 20 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" should've read the patch notes"}]}
+execute if score #out AM_Var matches 21 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" needs to replay the tutorial"}]}
+execute if score #out AM_Var matches 22 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" has an XP bar level IQ"}]}
+execute if score #out AM_Var matches 23 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" found out they have parkinson's"}]}
+execute if score #out AM_Var matches 24 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" should check out the accessibility settings"}]}
+execute if score #out AM_Var matches 25 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" just earned their "},{"score":{"name":"@s","objective":"AM_Deaths"}},{"text":" death!"}]}
