@@ -1,3 +1,6 @@
+# This exists because I was already part way through a pseudorandom function before I learned about the random command
+# So why not keep it /shrug
+
 # span = (max - min + 1)
 scoreboard players operation #span AM_RNG = #max AM_Var
 scoreboard players operation #span AM_RNG -= #min AM_Var
