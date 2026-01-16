@@ -7,5 +7,6 @@ function awesome:tick/enderrage
 function awesome:tick/piggerrage
 function awesome:tick/no_goggles
 function awesome:tick/hotfeet
+function awesome:tick/dragon_attack
 
 function awesome:tick/armorbuff
