@@ -72,6 +72,7 @@ tellraw @a {"text":"Looking at endermen..."}
 tellraw @a {"text":"Punching pigmen..."}
 tellraw @a {"text":"Requiring swimming goggles..."}
 tellraw @a {"text":"Increasing foot temperatures..."}
+tellraw @a {"text":"Making herds panic..."}
 
 
 

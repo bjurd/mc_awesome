@@ -1,0 +1,24 @@
+{
+	"display": {
+		"title": "Hit Animal",
+		"icon": {
+			"id": "minecraft:pig_spawn_egg"
+		},
+		"description": "Animal abuse is bad!",
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"hit": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "#awesome:animals"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "awesome:funny/herds_panic"
+	}
+}
