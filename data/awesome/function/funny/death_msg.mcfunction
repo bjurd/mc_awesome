@@ -1,5 +1,5 @@
 scoreboard players set #min AM_Var 0
-scoreboard players set #max AM_Var 25
+scoreboard players set #max AM_Var 39
 function awesome:rng
 
 execute if score #out AM_Var matches 0 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" just got rekt"}]}
@@ -28,3 +28,17 @@ execute if score #out AM_Var matches 22 run tellraw @a {"text":"","extra":[{"sel
 execute if score #out AM_Var matches 23 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" found out they have parkinson's"}]}
 execute if score #out AM_Var matches 24 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" should check out the accessibility settings"}]}
 execute if score #out AM_Var matches 25 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" just earned their "},{"score":{"name":"@s","objective":"AM_Deaths"}},{"text":" death!"}]}
+execute if score #out AM_Var matches 26 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" got 1'd"}]}
+execute if score #out AM_Var matches 27 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":"'s controller died"}]}
+execute if score #out AM_Var matches 28 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" blinked and missed"}]}
+execute if score #out AM_Var matches 29 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" was playing with their eyes closed"}]}
+execute if score #out AM_Var matches 30 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" eats crayons"}]}
+execute if score #out AM_Var matches 31 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" got outplayed"}]}
+execute if score #out AM_Var matches 32 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" forgot to turn on the monitor"}]}
+execute if score #out AM_Var matches 33 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" just embarrassed themselves"}]}
+execute if score #out AM_Var matches 34 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" peaked in the tutorial"}]}
+execute if score #out AM_Var matches 35 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" made the wrong decision"}]}
+execute if score #out AM_Var matches 36 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" should've seen that coming"}]}
+execute if score #out AM_Var matches 37 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" died, no surprise"}]}
+execute if score #out AM_Var matches 38 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" walked straight into death"}]}
+execute if score #out AM_Var matches 39 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" makes the game look difficult"}]}
