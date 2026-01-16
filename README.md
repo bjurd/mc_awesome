@@ -36,7 +36,7 @@ Some of these are (re)set to their default values, this is just a list of what t
 - Mob Spawning is `enabled`
 - Monster Spawning is `enabled`
 - Phantom Spawning is `enabled`
-- Patrol Spawning is `enabled` (Don't know what this does)
+- Patrol Spawning is `enabled`
 - Warden Spawning is `enabled`
 - Wandering Trader Spawning is `enabled`
 - Command Blocks are `enabled`
