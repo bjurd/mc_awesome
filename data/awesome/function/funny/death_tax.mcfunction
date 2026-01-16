@@ -1,5 +1,3 @@
-scoreboard players operation @s AM_CountedDeaths = @s AM_Deaths
-
 # 0-35 are inventory slots, 36-39 are armor slots, 40 is offhand
 scoreboard players set #min AM_Var 0
 scoreboard players set #max AM_Var 40

@@ -22,7 +22,7 @@ execute as @a run scoreboard players operation @s AM_CountedDeaths = @s AM_Death
 
 tellraw @a {"text":"Setting gamerules..."}
 gamerule immediate_respawn true
-gamerule show_death_messages true
+gamerule show_death_messages false
 
 gamerule spawn_mobs true
 gamerule spawn_monsters true
@@ -32,7 +32,8 @@ gamerule spawn_wardens true
 gamerule spawn_wandering_traders true
 
 gamerule command_blocks_work true
-gamerule command_block_output false
+gamerule command_block_output true
+gamerule log_admin_commands true
 
 gamerule tnt_explodes true
 gamerule tnt_explosion_drop_decay false
