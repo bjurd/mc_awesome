@@ -7,12 +7,14 @@ tellraw @a {"text":"Creating very real variables..."}
 scoreboard objectives remove AM_Var
 scoreboard objectives remove AM_RNG
 scoreboard objectives remove AM_Health
+scoreboard objectives remove AM_Fire
 
 scoreboard objectives add AM_Var dummy
 scoreboard objectives add AM_RNG dummy
 scoreboard objectives add AM_Deaths deathCount
 scoreboard objectives add AM_CountedDeaths dummy
 scoreboard objectives add AM_Health health
+scoreboard objectives add AM_Fire dummy
 
 scoreboard objectives setdisplay list AM_Deaths
 scoreboard objectives setdisplay below_name AM_Health
