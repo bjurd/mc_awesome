@@ -64,6 +64,7 @@ gamerule locator_bar false
 
 
 
+tellraw @a {"text":"Increasing armor strength..."}
 tellraw @a {"text":"Shortening creeper fuses..."}
 tellraw @a {"text":"Causing skeleton gang warfare..."}
 tellraw @a {"text":"Firing shrink ray at Zombies..."}
