@@ -19,6 +19,7 @@ Not really, it's an awful troll pack.
 - The ender dragon will periodically shoot fireballs at the nearest player
 - Custom death messages to make fun of your skill issues
 - Stonecutters hurt when stood on
+- Cobwebs slow you down a lot more
 - Death counts are shown in the player list
 - Health counts are shown below player names
 
