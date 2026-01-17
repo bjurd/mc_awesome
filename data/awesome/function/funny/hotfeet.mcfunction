@@ -1,1 +1,1 @@
-execute if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:fire
+execute if block ~ ~ ~ #minecraft:replaceable run setblock ~ ~ ~ minecraft:fire
