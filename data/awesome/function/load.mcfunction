@@ -80,7 +80,10 @@ tellraw @a {"text":"Teaching the ender dragon new tricks..."}
 tellraw @a {"text":"Sharpening stonecutters..."}
 tellraw @a {"text":"Gluing cobwebs..."}
 
-
+function awesome:loop/skelegang
+function awesome:loop/kiddies
+function awesome:loop/enderrage
+function awesome:loop/piggerrage
 
 tellraw @a {"text":"Awesome Mode locked and loaded!"}
 
