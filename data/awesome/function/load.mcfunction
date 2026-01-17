@@ -70,6 +70,7 @@ gamerule locator_bar false
 
 tellraw @a {"text":"Increasing armor strength..."}
 tellraw @a {"text":"Shortening creeper fuses..."}
+tellraw @a {"text":"Charging creeper batteries..."}
 tellraw @a {"text":"Causing skeleton gang warfare..."}
 tellraw @a {"text":"Firing shrink ray at Zombies..."}
 tellraw @a {"text":"Taxing the dead..."}
@@ -87,6 +88,7 @@ function awesome:loop/skelegang
 function awesome:loop/kiddies
 function awesome:loop/enderrage
 function awesome:loop/piggerrage
+function awesome:loop/creeperpower
 
 tellraw @a {"text":"Awesome Mode locked and loaded!"}
 

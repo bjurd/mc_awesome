@@ -8,6 +8,7 @@ Not really, it's an awful troll pack.
 
 - All player-worn armor has double the protection (To balance the garbage)
 - Creepers instantly explode when close
+- Creepers have a 20% chance to become supercharged on spawn
 - Skeletons spawn 2 more skeletons nearby on spawn
 - Zombies have a 50% chance to turn into a baby on spawn
 - Keep inventory is enabled, but a random inventory slot is wiped on death
