@@ -77,6 +77,8 @@ tellraw @a {"text":"Requiring swimming goggles..."}
 tellraw @a {"text":"Increasing foot temperatures..."}
 tellraw @a {"text":"Making herds panic..."}
 tellraw @a {"text":"Teaching the ender dragon new tricks..."}
+tellraw @a {"text":"Sharpening stonecutters..."}
+tellraw @a {"text":"Gluing cobwebs..."}
 
 
 
