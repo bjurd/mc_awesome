@@ -1,4 +1,4 @@
-execute as @a run attribute @s minecraft:armor modifier remove am_helmet
-execute as @a run attribute @s minecraft:armor modifier remove am_chestplate
-execute as @a run attribute @s minecraft:armor modifier remove am_leggings
-execute as @a run attribute @s minecraft:armor modifier remove am_boots
+attribute @s minecraft:armor modifier remove am_helmet
+attribute @s minecraft:armor modifier remove am_chestplate
+attribute @s minecraft:armor modifier remove am_leggings
+attribute @s minecraft:armor modifier remove am_boots

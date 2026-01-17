@@ -1,2 +1,2 @@
-function awesome:armor_buff/reset
-function awesome:armor_buff/apply
+execute as @a run function awesome:armor_buff/reset
+execute as @a run function awesome:armor_buff/apply
