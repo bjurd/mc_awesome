@@ -1,6 +1,6 @@
 scoreboard players set #min AM_Var 0
 scoreboard players set #max AM_Var 39
-function awesome:rng
+function awesome:helpers/rng
 
 execute if score #out AM_Var matches 0 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" just got rekt"}]}
 execute if score #out AM_Var matches 1 run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":", sit you nn dog"}]}

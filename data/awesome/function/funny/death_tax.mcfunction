@@ -1,7 +1,7 @@
 # 0-35 are inventory slots, 36-39 are armor slots, 40 is offhand
 scoreboard players set #min AM_Var 0
 scoreboard players set #max AM_Var 40
-function awesome:rng
+function awesome:helpers/rng
 
 execute if score #out AM_Var matches 0 run item replace entity @s container.0 with minecraft:air
 execute if score #out AM_Var matches 1 run item replace entity @s container.1 with minecraft:air

@@ -9,6 +9,7 @@ scoreboard objectives remove AM_RNG
 scoreboard objectives remove AM_Health
 scoreboard objectives remove AM_Fire
 scoreboard objectives remove AM_Cobwebs
+scoreboard objectives remove AM_RoofScan
 
 scoreboard objectives add AM_Var dummy
 scoreboard objectives add AM_RNG dummy
@@ -17,6 +18,7 @@ scoreboard objectives add AM_CountedDeaths dummy
 scoreboard objectives add AM_Health health
 scoreboard objectives add AM_Fire dummy
 scoreboard objectives add AM_Cobwebs dummy
+scoreboard objectives add AM_RoofScan dummy
 
 scoreboard objectives setdisplay list AM_Deaths
 scoreboard objectives setdisplay below_name AM_Health
@@ -79,6 +81,7 @@ tellraw @a {"text":"Making herds panic..."}
 tellraw @a {"text":"Teaching the ender dragon new tricks..."}
 tellraw @a {"text":"Sharpening stonecutters..."}
 tellraw @a {"text":"Gluing cobwebs..."}
+tellraw @a {"text":"Spawning monsters under the bed..."}
 
 function awesome:loop/skelegang
 function awesome:loop/kiddies
