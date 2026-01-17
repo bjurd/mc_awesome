@@ -8,5 +8,6 @@ function awesome:tick/piggerrage
 function awesome:tick/no_goggles
 function awesome:tick/hotfeet
 function awesome:tick/dragon_attack
+function awesome:tick/stonecutter
 
 function awesome:tick/armorbuff

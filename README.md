@@ -18,6 +18,7 @@ Not really, it's an awful troll pack.
 - All nearby animals will panic when an animal gets hit
 - The ender dragon will periodically shoot fireballs at the nearest player
 - Custom death messages to make fun of your skill issues
+- Stonecutters hurt when stood on
 - Death counts are shown in the player list
 - Health counts are shown below player names
 
