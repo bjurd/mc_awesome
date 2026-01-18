@@ -4,6 +4,7 @@ function awesome:tick/creeperboom
 function awesome:tick/no_goggles
 function awesome:tick/hotfeet
 function awesome:tick/dragon_attack
+function awesome:tick/shulker_attack
 function awesome:tick/stonecutter
 function awesome:tick/cobweb
 

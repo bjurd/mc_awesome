@@ -18,6 +18,7 @@ Not really, it's an awful troll pack.
 - Fire stays around until you jump in water, and leaves a fire trail
 - All nearby animals will panic when an animal gets hit
 - The ender dragon will periodically shoot fireballs at the nearest player
+- Shulkers will occasionally fire extra bullets
 - Custom death messages to make fun of your skill issues
 - Stonecutters hurt when stood on
 - Cobwebs slow you down a lot more
