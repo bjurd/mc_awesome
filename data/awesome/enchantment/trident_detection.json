@@ -1,0 +1,51 @@
+{
+	"description": "Hit Detection",
+	"supported_items": "trident",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"hand"
+	],
+	"effects": {
+		"minecraft:hit_block": [
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "minecraft:trident"
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "awesome:less_funny/trident_block"
+				}
+			}
+		],
+		"minecraft:post_attack": [
+			{
+				"requirements": {
+					"condition": "minecraft:damage_source_properties",
+					"predicate": {
+						"is_direct": false
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "awesome:less_funny/trident_entity"
+				},
+				"enchanted": "attacker",
+				"affected": "victim"
+			}
+		]
+	}
+}

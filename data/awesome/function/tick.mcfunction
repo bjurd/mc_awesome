@@ -9,3 +9,4 @@ function awesome:tick/stonecutter
 function awesome:tick/cobweb
 
 function awesome:tick/armorbuff
+function awesome:tick/detect_trident

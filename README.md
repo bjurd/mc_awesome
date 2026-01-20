@@ -23,6 +23,7 @@ Not really, it's an awful troll pack.
 - Stonecutters hurt when stood on
 - Cobwebs slow you down a lot more
 - Sleeping with no roof will cause monsters to come from under the bed
+- Tridents cause strong lightning strikes when hitting blocks or entities, always
 - Death counts are shown in the player list
 - Health counts are shown below player names
 

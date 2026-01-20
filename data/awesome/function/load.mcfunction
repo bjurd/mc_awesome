@@ -84,6 +84,7 @@ tellraw @a {"text":"Increasing blood pressure of shulkers..."}
 tellraw @a {"text":"Sharpening stonecutters..."}
 tellraw @a {"text":"Gluing cobwebs..."}
 tellraw @a {"text":"Spawning monsters under the bed..."}
+tellraw @a {"text":"Channeling tridents..."}
 
 function awesome:loop/skelegang
 function awesome:loop/kiddies
