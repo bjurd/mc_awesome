@@ -86,12 +86,14 @@ tellraw @a {"text":"Sharpening stonecutters..."}
 tellraw @a {"text":"Gluing cobwebs..."}
 tellraw @a {"text":"Spawning monsters under the bed..."}
 tellraw @a {"text":"Channeling tridents..."}
+tellraw @a {"text":"Creating infernal mobs..."}
 
 function awesome:loop/skelegang
 function awesome:loop/kiddies
 function awesome:loop/enderrage
 function awesome:loop/piggerrage
 function awesome:loop/creeperpower
+function awesome:loop/infernal
 
 tellraw @a {"text":"Awesome Mode locked and loaded!"}
 

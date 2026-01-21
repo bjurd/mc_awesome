@@ -27,6 +27,10 @@ Not really, it's an awful troll pack.
 - Death counts are shown in the player list
 - Health counts are shown below player names
 - Difficulty is locked to Hard
+- Mobs have a chance to become "infernal" \
+*Infernal mobs in this datapack are nothing like the ones from the Infernal Mobs mod.
+Their changes are slightly randomized, but the jist is they get strength, resistence, speed, knockback resistence
+and health boost randomly added if chosen to become infernal.*
 
 </details>
 
