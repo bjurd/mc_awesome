@@ -26,6 +26,7 @@ Not really, it's an awful troll pack.
 - Tridents cause strong lightning strikes when hitting blocks or entities, always
 - Death counts are shown in the player list
 - Health counts are shown below player names
+- Difficulty is locked to Hard
 
 </details>
 

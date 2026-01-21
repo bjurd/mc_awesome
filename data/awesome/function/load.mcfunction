@@ -68,6 +68,7 @@ gamerule locator_bar false
 
 
 
+tellraw @a {"text":"Setting difficulty to Hard..."}
 tellraw @a {"text":"Increasing armor strength..."}
 tellraw @a {"text":"Shortening creeper fuses..."}
 tellraw @a {"text":"Charging creeper batteries..."}
