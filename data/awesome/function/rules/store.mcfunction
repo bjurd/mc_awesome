@@ -19,3 +19,4 @@ scoreboard players operation #AM_Rules_Store AM_Rule_MonstersUnderBed = #AM_Rule
 scoreboard players operation #AM_Rules_Store AM_Rule_TridentChanneling = #AM_Rules AM_Rule_TridentChanneling
 scoreboard players operation #AM_Rules_Store AM_Rule_InfernalMobs = #AM_Rules AM_Rule_InfernalMobs
 scoreboard players operation #AM_Rules_Store AM_Rule_HotMagma = #AM_Rules AM_Rule_HotMagma
+scoreboard players operation #AM_Rules_Store AM_Rule_RawFoodsBad = #AM_Rules AM_Rule_RawFoodsBad

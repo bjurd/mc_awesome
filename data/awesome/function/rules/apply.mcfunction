@@ -19,3 +19,6 @@ $function awesome:rules/set {rule:"AM_Rule_MonstersUnderBed",value:$(monsters_un
 $function awesome:rules/set {rule:"AM_Rule_TridentChanneling",value:$(trident_channeling)}
 $function awesome:rules/set {rule:"AM_Rule_InfernalMobs",value:$(infernal_mobs)}
 $function awesome:rules/set {rule:"AM_Rule_HotMagma",value:$(hot_magma)}
+$function awesome:rules/set {rule:"AM_Rule_RawFoodsBad",value:$(raw_foods_bad)}
+
+function awesome:rules/on_update

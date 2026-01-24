@@ -1,0 +1,24 @@
+{
+	"display": {
+		"title": "Eat Raw Food",
+		"icon": {
+			"id": "minecraft:porkchop"
+		},
+		"description": "It's not good for you!",
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"hit": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": "#awesome:raw_food"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "awesome:funny/eat_raw"
+	}
+}

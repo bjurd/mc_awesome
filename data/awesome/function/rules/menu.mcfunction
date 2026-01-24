@@ -21,6 +21,7 @@ execute store success storage awesome:rules rules.monsters_under_bed int 1 run e
 execute store success storage awesome:rules rules.trident_channeling int 1 run execute if score #AM_Rules AM_Rule_TridentChanneling matches 1
 execute store success storage awesome:rules rules.infernal_mobs int 1 run execute if score #AM_Rules AM_Rule_InfernalMobs matches 1
 execute store success storage awesome:rules rules.hot_magma int 1 run execute if score #AM_Rules AM_Rule_HotMagma matches 1
+execute store success storage awesome:rules rules.raw_foods_bad int 1 run execute if score #AM_Rules AM_Rule_RawFoodsBad matches 1
 
 function awesome:rules/dialog with storage awesome:rules rules
 
