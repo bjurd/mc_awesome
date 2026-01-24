@@ -40,7 +40,7 @@ and health boost randomly added if chosen to become infernal.*
 # Configuration
 <details>
 
-All of the features in the datapack can be toggled on/off so you only have as little fun as you desire. You can list out
+Most of the features in the datapack can be toggled on/off so you only have as little fun as you desire. You can list out
 the available configuration settings (and their current values) by doing `/function awesome:rules/list`. The output of this
 command will show you what you can change and how.
 
