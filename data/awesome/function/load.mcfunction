@@ -68,25 +68,27 @@ gamerule locator_bar false
 
 
 
-tellraw @a {"text":"Setting difficulty to Hard..."}
-tellraw @a {"text":"Increasing armor strength..."}
-tellraw @a {"text":"Shortening creeper fuses..."}
-tellraw @a {"text":"Charging creeper batteries..."}
-tellraw @a {"text":"Causing skeleton gang warfare..."}
-tellraw @a {"text":"Firing shrink ray at Zombies..."}
-tellraw @a {"text":"Taxing the dead..."}
-tellraw @a {"text":"Looking at endermen..."}
-tellraw @a {"text":"Punching pigmen..."}
-tellraw @a {"text":"Requiring swimming goggles..."}
-tellraw @a {"text":"Increasing foot temperatures..."}
-tellraw @a {"text":"Making herds panic..."}
-tellraw @a {"text":"Teaching the ender dragon new tricks..."}
-tellraw @a {"text":"Increasing blood pressure of shulkers..."}
-tellraw @a {"text":"Sharpening stonecutters..."}
-tellraw @a {"text":"Gluing cobwebs..."}
-tellraw @a {"text":"Spawning monsters under the bed..."}
-tellraw @a {"text":"Channeling tridents..."}
-tellraw @a {"text":"Creating infernal mobs..."}
+# tellraw @a {"text":"Setting difficulty to Hard..."}
+# tellraw @a {"text":"Increasing armor strength..."}
+# tellraw @a {"text":"Shortening creeper fuses..."}
+# tellraw @a {"text":"Charging creeper batteries..."}
+# tellraw @a {"text":"Causing skeleton gang warfare..."}
+# tellraw @a {"text":"Firing shrink ray at Zombies..."}
+# tellraw @a {"text":"Taxing the dead..."}
+# tellraw @a {"text":"Looking at endermen..."}
+# tellraw @a {"text":"Punching pigmen..."}
+# tellraw @a {"text":"Requiring swimming goggles..."}
+# tellraw @a {"text":"Increasing foot temperatures..."}
+# tellraw @a {"text":"Making herds panic..."}
+# tellraw @a {"text":"Teaching the ender dragon new tricks..."}
+# tellraw @a {"text":"Increasing blood pressure of shulkers..."}
+# tellraw @a {"text":"Sharpening stonecutters..."}
+# tellraw @a {"text":"Gluing cobwebs..."}
+# tellraw @a {"text":"Spawning monsters under the bed..."}
+# tellraw @a {"text":"Channeling tridents..."}
+# tellraw @a {"text":"Creating infernal mobs..."}
+
+function awesome:rules/load
 
 function awesome:loop/skelegang
 function awesome:loop/kiddies

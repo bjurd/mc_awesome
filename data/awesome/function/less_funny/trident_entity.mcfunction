@@ -1,3 +1,4 @@
+execute if score #AM_Rules AM_Rule_TridentChanneling matches 0 run return fail
 execute at @s if dimension minecraft:the_nether run return fail
 
 execute as @s at @s run function awesome:helpers/roof_check

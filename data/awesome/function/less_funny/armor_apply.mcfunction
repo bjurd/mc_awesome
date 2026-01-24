@@ -1,3 +1,5 @@
+execute if score #AM_Rules AM_Rule_IncreaseArmorStrength matches 0 run return fail
+
 # helmets
 execute if data entity @s {equipment:{head:{id:"minecraft:leather_helmet"}}} run attribute @s minecraft:armor modifier add am_helmet 1 add_value
 execute if data entity @s {equipment:{head:{id:"minecraft:chainmail_helmet"}}} run attribute @s minecraft:armor modifier add am_helmet 2 add_value

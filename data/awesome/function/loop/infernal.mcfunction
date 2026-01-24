@@ -1,3 +1,5 @@
+execute if score #AM_Rules AM_Rule_InfernalMobs matches 0 run return fail
+
 schedule function awesome:loop/infernal 5s
 
 scoreboard players set #min AM_Var 0

@@ -1,4 +1,5 @@
 tag @s remove AM_MakeInfernal
+tag @s add AM_IsInfernal
 
 scoreboard players set #min AM_Var 0
 scoreboard players set #max AM_Var 1
