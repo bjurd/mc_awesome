@@ -18,6 +18,7 @@ Not really, it's an awful troll pack.
 - Pigmen agro when within 16 blocks, even without hitting them
 - Blindness when underwater (which also means no swimming), unless you have water breathing
 - Fire stays around until you jump in water, and leaves a fire trail
+- Magma blocks light you on fire if you don't sneak
 - All nearby animals will panic when an animal gets hit
 - The ender dragon will periodically shoot fireballs at the nearest player
 - Shulkers will occasionally fire extra bullets
@@ -68,6 +69,7 @@ AM_Rule_CobwebSlowdown is 1
 AM_Rule_MonstersUnderBed is 1
 AM_Rule_TridentChanneling is 1
 AM_Rule_InfernalMobs is 1
+AM_Rule_HotMagma is 1
 ```
 
 So let's say you want to disable endermen getting angry at you when nearby, you would run this command

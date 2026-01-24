@@ -18,6 +18,7 @@ scoreboard objectives add AM_Rule_CobwebSlowdown dummy
 scoreboard objectives add AM_Rule_MonstersUnderBed dummy
 scoreboard objectives add AM_Rule_TridentChanneling dummy
 scoreboard objectives add AM_Rule_InfernalMobs dummy
+scoreboard objectives add AM_Rule_HotMagma dummy
 
 execute unless score #AM_Rules AM_Rule_LockDifficulty matches 0.. run scoreboard players set #AM_Rules AM_Rule_LockDifficulty 1
 execute unless score #AM_Rules AM_Rule_IncreaseArmorStrength matches 0.. run scoreboard players set #AM_Rules AM_Rule_IncreaseArmorStrength 1
@@ -39,5 +40,6 @@ execute unless score #AM_Rules AM_Rule_CobwebSlowdown matches 0.. run scoreboard
 execute unless score #AM_Rules AM_Rule_MonstersUnderBed matches 0.. run scoreboard players set #AM_Rules AM_Rule_MonstersUnderBed 1
 execute unless score #AM_Rules AM_Rule_TridentChanneling matches 0.. run scoreboard players set #AM_Rules AM_Rule_TridentChanneling 1
 execute unless score #AM_Rules AM_Rule_InfernalMobs matches 0.. run scoreboard players set #AM_Rules AM_Rule_InfernalMobs 1
+execute unless score #AM_Rules AM_Rule_HotMagma matches 0.. run scoreboard players set #AM_Rules AM_Rule_HotMagma 1
 
 function awesome:rules/store

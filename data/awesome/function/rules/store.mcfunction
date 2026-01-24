@@ -18,3 +18,4 @@ scoreboard players operation #AM_Rules_Store AM_Rule_CobwebSlowdown = #AM_Rules 
 scoreboard players operation #AM_Rules_Store AM_Rule_MonstersUnderBed = #AM_Rules AM_Rule_MonstersUnderBed
 scoreboard players operation #AM_Rules_Store AM_Rule_TridentChanneling = #AM_Rules AM_Rule_TridentChanneling
 scoreboard players operation #AM_Rules_Store AM_Rule_InfernalMobs = #AM_Rules AM_Rule_InfernalMobs
+scoreboard players operation #AM_Rules_Store AM_Rule_HotMagma = #AM_Rules AM_Rule_HotMagma

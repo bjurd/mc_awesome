@@ -18,3 +18,4 @@ tellraw @s {"text":"AM_Rule_CobwebSlowdown is ","extra":[{"score":{"name":"#AM_R
 tellraw @s {"text":"AM_Rule_MonstersUnderBed is ","extra":[{"score":{"name":"#AM_Rules","objective":"AM_Rule_MonstersUnderBed"}}]}
 tellraw @s {"text":"AM_Rule_TridentChanneling is ","extra":[{"score":{"name":"#AM_Rules","objective":"AM_Rule_TridentChanneling"}}]}
 tellraw @s {"text":"AM_Rule_InfernalMobs is ","extra":[{"score":{"name":"#AM_Rules","objective":"AM_Rule_InfernalMobs"}}]}
+tellraw @s {"text":"AM_Rule_HotMagma is ","extra":[{"score":{"name":"#AM_Rules","objective":"AM_Rule_HotMagma"}}]}

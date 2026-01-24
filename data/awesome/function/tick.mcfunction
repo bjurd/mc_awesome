@@ -8,6 +8,7 @@ execute if score #AM_Rules AM_Rule_HotFeet matches 1 run function awesome:tick/h
 execute if score #AM_Rules AM_Rule_EnderDragonFireballs matches 1 run function awesome:tick/dragon_attack
 execute if score #AM_Rules AM_Rule_ExtraShulkerBullets matches 1 run function awesome:tick/shulker_attack
 execute if score #AM_Rules AM_Rule_StonecutterDamage matches 1 run function awesome:tick/stonecutter
+execute if score #AM_Rules AM_Rule_HotMagma matches 1 run function awesome:tick/hotmagma
 
 function awesome:tick/cobweb
 
