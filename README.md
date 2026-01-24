@@ -14,7 +14,7 @@ Not really, it's an awful troll pack.
 - A random inventory slot is wiped on death
 - Endermen agro when within 16 blocks, even without looking at them (Not in The End though)
 - Pigmen agro when within 16 blocks, even without hitting them
-- Blindness when underwater (Which also means no swimming)
+- Blindness when underwater (which also means no swimming), unless you have water breathing
 - Fire stays around until you jump in water, and leaves a fire trail
 - All nearby animals will panic when an animal gets hit
 - The ender dragon will periodically shoot fireballs at the nearest player
