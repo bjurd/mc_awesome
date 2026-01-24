@@ -35,6 +35,7 @@ Not really, it's an awful troll pack.
 *Infernal mobs in this datapack are nothing like the ones from the Infernal Mobs mod.
 Their changes are slightly randomized, but the jist is they get strength, resistence, speed, knockback resistence
 and health boost randomly added if chosen to become infernal.*
+- Creepers no longer make area effect clouds
 
 </details>
 
