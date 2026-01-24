@@ -13,6 +13,7 @@ Not really, it's an awful troll pack.
 - A random inventory slot is wiped on death
 - Creepers instantly explode when close
 - Creepers have a 20% chance to become supercharged on spawn
+- Creepers no longer make area effect clouds
 - Skeletons spawn 2 more skeletons nearby on spawn
 - Zombies have a 50% chance to turn into a baby on spawn
 - Endermen agro when within 16 blocks, even without looking at them (Not in The End though)
@@ -35,7 +36,6 @@ Not really, it's an awful troll pack.
 *Infernal mobs in this datapack are nothing like the ones from the Infernal Mobs mod.
 Their changes are slightly randomized, but the jist is they get strength, resistence, speed, knockback resistence
 and health boost randomly added if chosen to become infernal.*
-- Creepers no longer make area effect clouds
 
 </details>
 
