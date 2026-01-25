@@ -1,5 +1,6 @@
 execute if score #AM_Rules AM_Rule_LockDifficulty matches 1 run difficulty hard
 
+scoreboard players add @a AM_CountedDeaths 0
 execute as @a if score @s AM_Deaths > @s AM_CountedDeaths run function awesome:helpers/on_death
 
 execute if score #AM_Rules AM_Rule_ShortenCreeperFuses matches 1 run function awesome:tick/creeperboom
